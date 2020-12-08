@@ -1,0 +1,11 @@
+grant:
+  type: password
+
+app:
+  host: https://taschool-notes-service.herokuapp.com
+
+auth:
+  token: Basic dGVzdDpzZWNyZXQ=
+
+
+
