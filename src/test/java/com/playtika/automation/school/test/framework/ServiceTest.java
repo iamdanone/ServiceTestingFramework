@@ -30,7 +30,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @SpringBootTest(classes = {AuthConfiguration.class, NotesConfiguration.class, RegisterConfiguration.class})
 
-
 public class ServiceTest {
 
     @Autowired

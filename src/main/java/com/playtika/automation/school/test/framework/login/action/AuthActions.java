@@ -13,7 +13,7 @@ public class AuthActions {
     private final String grantType;
     private final String authToken;
 
-    public AuthenticateResponse authorization(String username, String password) {
-        return authFeignClient.login(authToken, grantType, username, password);
+    public AuthenticateResponse authorization(String userName, String password) {
+        return authFeignClient.login(authToken, grantType, userName, password);
     }
 }
